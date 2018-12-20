@@ -3,7 +3,9 @@
         <html>
             <body>
         <table>
-          <xsl:apply-templates select="//user[@age &gt;=15]"/>
+          <xsl:apply-templates select="//user[@age &gt;=10]">
+           <xsl:sort select="@age" data-type="number" order="ascending"/>
+          </xsl:apply-templates>
         </table>
             </body>
         </html>
