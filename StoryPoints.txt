@@ -1,0 +1,9 @@
+XML:100%
+JSON:50%
+XSLT:100%
+HTML:100%
+Style:50%
+UserStories:60%
+GitHub:80%
+Trello:40%
+Slack:30%
