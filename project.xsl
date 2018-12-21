@@ -2,8 +2,8 @@
     <xsl:template match="/">
         <html>
             <body>
-                <h1>All users:</h1>
-                <table border="1px">
+                <h1 align="center">All users:</h1>
+                <table border="1px" align="center">
                     <tr style="font-weight:bold">
                         <td>Name:</td>
                         <td>Age:</td>
@@ -12,18 +12,21 @@
                         <td>Time:</td>
                     </tr>
                     <xsl:apply-templates select="//user"></xsl:apply-templates>
-                </table>
-                <h2>Best matches:</h2>
-                <table>
+                </table >
+                <h2 align="center">Best matches in Park</h2>
+                <table border="1px" align="center">
                     <xsl:apply-templates select="//user[@place='Park']"/>
                 </table>
-                <table>
+                <h2 align="center">Best matches in Bar</h2>
+                <table border="1px" align="center">
                     <xsl:apply-templates select="//user[@place='Bar']"/>
                 </table>
-                <table>
+                <h2 align="center">Best matches in Restourant</h2>
+                <table border="1px" align="center">
                     <xsl:apply-templates select="//user[@place='Restourant']"/>
                 </table>
-                <table>
+                <h2 align="center">Best matches in KFC</h2>
+                <table border="1px" align="center">
                     <xsl:apply-templates select="//user[@place='KFC']"/>
                 </table>
             </body>
