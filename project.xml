@@ -4,9 +4,9 @@
     <user name="Dima" age="15" sex="man" place="KFC" time="14" id="1"/>
     <user name="Anton" age="25" sex="man" place="Restourant" time="20" id="1"/>
     <user name="Nastya" age="18" sex="woman" place="Park" time="18" id="2"/>
-    <user name="Vika" age="15" sex="woman" place="Park" time="14" id="2"/>
     <user name="Liza" age="35" sex="woman" place="Restourant" time="20" id="2"/>
     <user name="Veronika" age="9" sex="woman" place="KFC" time="14" id="1"/>
     <user name="Kolya" age="20" sex="man" place="Bar" time="22" id="1"/>
     <user name="Masha" age="16" sex="woman" place="cinema" time="19" id="2"/>
+    <user name="Masha" age="16" sex="woman" place="cinema" time="15" id="2"/>
 </people>

@@ -13,6 +13,19 @@
                     </tr>
                     <xsl:apply-templates select="//user"></xsl:apply-templates>
                 </table>
+                <h2>Best matches:</h2>
+                <table>
+                    <xsl:apply-templates select="//user[@place='Park']"/>
+                </table>
+                <table>
+                    <xsl:apply-templates select="//user[@place='Bar']"/>
+                </table>
+                <table>
+                    <xsl:apply-templates select="//user[@place='Restourant']"/>
+                </table>
+                <table>
+                    <xsl:apply-templates select="//user[@place='KFC']"/>
+                </table>
             </body>
         </html>
     </xsl:template>
