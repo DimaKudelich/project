@@ -1,0 +1,208 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: Ubuntu;
+	src: url(fonts/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Roboto Slab';
+	src: url(fonts/RobotoSlab-Regular.ttf);
+}
+
+.big-wrap {
+	width: 100%;
+	min-height: 100%;
+	margin: 0 auto;
+	background-image: url("img/har.jpg");
+}
+
+/*----ШАПКА----*/
+
+.header-wrap {
+	height: 50px;
+	text-align: center;
+	border-bottom: 1px dashed #ccc;
+	padding: 10px;
+}
+
+.header-wrap a {
+	color: green;
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+	line-height: 45px;
+}
+
+/*----ТЕЛО----*/
+
+
+.body-wrap-main {
+	width: 55%;
+	margin: 0 auto;
+	/*background: red;*/
+	overflow: hidden;
+}
+
+.body-collumn {
+	display: inline-block;
+	/*background: #ff0;*/
+	width: 400px;
+	align:center;
+}
+
+.left {
+	margin-left: 150px;
+
+}
+
+.text-block {
+	width: 350px;
+	height: 200px;
+	padding: 10px 10px;
+}
+
+.body-collumn_item {
+	width: 350px;
+	height: auto;
+	background: #ccc;
+	margin: 20px auto;
+	padding: 10px;
+	border-radius: 5px;
+	transition: 0.5s ease;
+}
+
+.body-collumn_item:hover {
+	transform: scale(1.04);
+}
+
+.empty {
+	width: 88%;
+	height: 70px;
+	/*background: grey;*/
+}
+
+/*----САЙД__ТЕЛО-----*/
+
+.body-wrap-side {
+	width: 100%;
+	min-height: 806px;
+	background: ;
+	float: none;
+}
+
+.content-wrap {
+	width: 1300px;
+	height: 100%;
+	margin: 100px auto;
+	background: #ccc;
+	box-sizing: border-box;
+	padding: 10px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+
+.anch-l {
+	height: 800px;
+	width: 15%;
+	/*background: purple;*/
+	float: left;
+	text-align: center;
+	font-size: 50px;
+	color: #FFCC00;
+	position: relative;
+	transition: 0.8s ease;
+}
+
+.anch-r {
+	height: 800px;
+	width: 15%;
+	/*background: purple;*/
+	float: right;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 50px;
+	color: #FFCC00;
+	position: relative;
+	transition: 0.8s ease;
+}
+
+.anch-l:hover, .anch-r:hover{
+	color: #ccc;
+}
+
+.fa-arrow-right {
+	position: absolute;
+	top: 50%;
+	right: 40%;
+}
+
+.fa-arrow-left {
+	position: absolute;
+	top: 50%;
+	left: 40%;
+}
+
+
+
+/*----ТЕКСТ-----*/
+
+.declaration {
+	font-size: 25px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #000;
+}
+
+.small-def {
+	font-size: 19px;
+}
+
+.description {
+	font-size: 20.5px;
+	padding-top: 20px;
+}
+
+span {
+	font-size: 25px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #000;
+}
+
+/*----ИЗОБРАЖЕНИЯ----*/
+
+.item {
+	width: 350px;
+}
+
+.s-img {
+	float: left;
+	margin: 10px 30px 10px 10px;
+}
+
+/*----ПОДВАЛ----*/
+
+.footer-wrap {
+	min-height: 60px;
+	width: 100%;
+	border-top: 1px dashed #ccc;
+}
+
+.f-wrp {
+	/*background: #fff;*/
+	width: 20%;
+	height: 60px;
+	margin: 0 auto;
+	display: table;
+}
+
+.f-link {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Ubuntu', sans-serif;
+	color: #FFCC00;
+}
